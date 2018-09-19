@@ -1,0 +1,31 @@
+1º passo - adquirir dados
+2º passo - análise dos dados
+3º passo - filtrar dados
+4º passo - mineração dos dados
+5º passo - representar os dados visualmente
+6º passo - Human-Computer interaction
+
+"Quarteto de Anscombe"
+
+3D não é uma boa representação, ao invés disso, podemos usar Retinal Variables.
+Exemplos de Retinal Variables:
+  - Tamanho
+  - Cor
+  - Orientação
+  - Forma
+  - Textura
+
+  Artigo Percepção Gráfica por Cleveland e McGill
+  https://web.cs.dal.ca/~sbrooks/csci4166-6406/seminars/readings/Cleveland_GraphicalPerception_Science85.pdf
+  Blog sobre artigo: http://flowingdata.com/2010/03/20/graphical-perception-learn-the-fundamentals-first/
+
+  Ranking de codificação visual (do mais acurado para o menos acurado):
+    - Posição
+    - Comprimento
+    - Angulação
+    - Área
+    - Volume
+    - Cor e densidade
+
+Decomposição de Visualizações (Visual Encoding)
+  Good Website about it : https://www.targetprocess.com/articles/visual-encoding/
