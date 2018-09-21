@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Playing with d3.js</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+    <form>
+      <label><input type="radio" name="mode" id="stacked" value="stacked" checked> Stacked</label>
+      <label><input type="radio" name="mode" id="grouped" value="grouped"> Grouped</label>
+    </form>
+
+    <div class="info-chart">
+      <div class="tooltip hidden">
+    		<p><span class="value">100</span> thousand</p>
+    	</div>
+    </div>
+
+    <table id="infoTable">
+    <thead>
+      <caption>Annual consumption of bananas (thousands)</caption>
+        <tr>
+             <th>1993</th>  <th>1994</th> <th>1994</th> <th>1995</th> <th>1996</th> <th>1997</th> <th>1998</th> <th>1999</th> <th>2000</th> <th>2001</th> <th>2002</th> <th>2003</th> <th>2004</th> <th>2005</th> <th>2006</th> <th>2007</th> <th>2008</th> <th>2009</th> <th>2010</th> <th>2011</th> <th>2012</th> <th>2013</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="men">
+            <td>8</td>  <td>10</td> <td>13</td> <td>19</td> <td>21</td> <td>25</td> <td>22</td> <td>18</td> <td>15</td> <td>13</td> <td>11</td> <td>12</td> <td>15</td> <td>20</td> <td>18</td> <td>17</td> <td>16</td> <td>18</td> <td>23</td> <td>25</td>  <td>22</td> <td>18</td>
+        </tr>
+            <tr class="women">
+             <td>25</td> <td>22</td> <td>18</td> <td>15</td> <td>13</td> <td>11</td> <td>12</td> <td>15</td> <td>20</td> <td>18</td> <td>17</td> <td>16</td> <td>18</td> <td>23</td> <td>25</td>  <td>22</td> <td>18</td>  <td>21</td> <td>19</td> <td>13</td> <td>10</td> <td>8</td>
+        </tr>
+
+    </tbody>
+    </table>
+
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
